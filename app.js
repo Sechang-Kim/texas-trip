@@ -94,11 +94,11 @@ const places = [
     lng: -98.4861
   },
   {
-    id: "llano",
+    id: "Llano (Or Fredericksburg)",
     day: "2025-12-20",
     time: "12:00–14:00",
     title: "Llano 읍내 카페",
-    note: "읍내 카페 체험: 크리스마스 시즌 영업 확인 필요!",
+    note: "읍내 카페 체험: 크리스마스 시즌 영업 확인 필요! -> 어려우면 Fredericksburg 고려",
     tags: [],
     lat: 30.759,
     lng: -98.6756
@@ -108,7 +108,7 @@ const places = [
     day: "2025-12-20",
     time: "16:30–17:30",
     title: "Dr Pepper Museum (Waco)",
-    note: "기념품 중심으로 빠르게.",
+    note: "마감이 17:30이니 너무 늦지 않아야 함.",
     tags: ["must"],
     lat: 31.5486,
     lng: -97.1467
@@ -116,7 +116,7 @@ const places = [
   {
     id: "hampton-ftw",
     day: "2025-12-20",
-    time: "19:45+",
+    time: "20:00+",
     title: "Hampton Inn & Suites Fort Worth Downtown (숙박)",
     note: "장거리 운전... 체력 회복!",
     tags: ["sleep"],
@@ -498,3 +498,4 @@ render();
 applyRouteStyles("all");
 fitAll();
 statusEl.textContent = "준비됨";
+
