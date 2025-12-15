@@ -94,10 +94,10 @@ const places = [
     lng: -98.4861
   },
   {
-    id: "Llano (Or Fredericksburg)",
+    id: "Llano",
     day: "2025-12-20",
     time: "12:00–14:00",
-    title: "Llano 읍내 카페",
+    title: "Llano 읍내 카페(Or Fredericksburg)",
     note: "읍내 카페 체험: 크리스마스 시즌 영업 확인 필요! -> 어려우면 Fredericksburg 고려",
     tags: [],
     lat: 30.759,
@@ -498,4 +498,5 @@ render();
 applyRouteStyles("all");
 fitAll();
 statusEl.textContent = "준비됨";
+
 
